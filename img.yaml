@@ -1,14 +1,14 @@
 images:
-  input_path: "/ruta/a/imagenes"        # Ruta donde están almacenadas las imágenes de entrada
-  output_path: "/ruta/a/resultados"      # Ruta donde se guardarán los resultados procesados
-  file_format: ".jpg"                    # Formato de las imágenes (puede ser .png, .jpg, etc.)
+  input_path: "/ruta/a/imagenes"       
+  output_path: "/ruta/a/resultados"      
+  file_format: ".jpg"                    
 
 settings:
-  rename_images: true                    # Si es true, renombra las imágenes con el resultado
-  detection_threshold: 0.5               # Nivel de confianza para la detección (ajustable según el modelo)
-  output_prefix: "processed_"            # Prefijo para imágenes renombradas con el resultado
+  rename_images: true                    
+  detection_threshold: 0.5               
+  output_prefix: "processed_"           
 
 logging:
-  enable: true                           # Habilita el registro de logs
-  log_path: "/ruta/a/logs"               # Ruta para almacenar los archivos de log
-  log_level: "INFO"                      # Nivel de log (DEBUG, INFO, WARNING, ERROR)
+  enable: true                          
+  log_path: "/ruta/a/logs"              
+  log_level: "INFO"                      
